@@ -1,0 +1,38 @@
+{
+  "name": "codigo-bit",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build && next export",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@babel/core": "^7.12.16",
+    "@emotion/babel-plugin": "^11.2.0",
+    "@emotion/babel-preset-css-prop": "^11.2.0",
+    "@emotion/core": "^11.0.0",
+    "@emotion/react": "^11.1.5",
+    "@emotion/styled": "^11.1.5",
+    "@fortawesome/fontawesome-svg-core": "^1.2.34",
+    "@fortawesome/free-brands-svg-icons": "^5.15.2",
+    "@fortawesome/free-solid-svg-icons": "^5.15.2",
+    "@fortawesome/react-fontawesome": "^0.1.14",
+    "babel": "^6.23.0",
+    "babel-plugin-emotion": "^11.0.0",
+    "bootstrap": "^4.6.0",
+    "firebase": "^8.2.10",
+    "leaflet": "^1.7.1",
+    "leaflet-defaulticon-compatibility": "^0.1.1",
+    "leaflet-geosearch": "^3.2.1",
+    "next": "10.0.6",
+    "react": "17.0.1",
+    "react-bootstrap": "^1.5.1",
+    "react-dom": "17.0.1",
+    "react-leaflet": "^3.1.0",
+    "react-particles-js": "^3.4.1",
+    "react-reveal": "^1.2.2",
+    "scrollreveal": "^4.0.7",
+    "swiper": "^6.4.15"
+  }
+}
