@@ -71,18 +71,17 @@ const Layout = (props) => {
           }
         `}
       />
-
+{/* <img src="iconos/021-dashboard.png"/> */}
         <Head>
-        <title> codigoBit </title>
+        <title> CodigoBit - Desarollo de paginas y apliciones Web</title>
+        <link rel="icon" type="image/png" sizes="16x10" href="logmin.png"/>
+       
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" />
         <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/all.css"></link>
         {/* <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.min.css"></link> */}
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet" />
         {/* <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"  integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA==" crossorigin=""/> */}
-          
-        
-
         </Head>
 
        

@@ -304,7 +304,7 @@ return (
                 </div>
                 </Fade>
 
-                <Fade right>
+                <Fade left>
 
                 <div css={css`
                     position:relative;

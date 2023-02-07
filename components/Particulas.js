@@ -9,10 +9,10 @@ const Particulas = () => {
         params = {{
             "particles": {
               "number": {
-                "value": 180,
+                "value": 130,
                 "density": {
                   "enable": true,
-                  "value_area": 700
+                  "value_area": 400
                 }
               },
               "color": {
@@ -44,7 +44,7 @@ const Particulas = () => {
                 }
               },
               "size": {
-                "value": 3,
+                "value": 1,
                 "random": true,
                 "anim": {
                   "enable": false,
@@ -62,9 +62,9 @@ const Particulas = () => {
               },
               "move": {
                 "enable": true,
-                "speed": 5,
-                "direction": "top-right",
-                "random": false,
+                "speed": 3,
+                "direction": "none",
+                "random": true,
                 "straight": false,
                 "out_mode": "out",
                 "bounce": false,
@@ -103,7 +103,7 @@ const Particulas = () => {
                   "speed": 3
                 },
                 "repulse": {
-                  "distance": 200,
+                  "distance": 100,
                   "duration": 0.4
                 },
                 "push": {

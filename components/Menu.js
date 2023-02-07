@@ -22,7 +22,7 @@ const NavegacionMenu = styled.section`
         left: calc(25% * var(--i));
         width: 25%;
         height:100%;
-        background: #DE0611;
+        background: black;
         transition: 0.25s;
         transition-delay: calc(0.25s * var(--i));
     }
@@ -42,19 +42,20 @@ const NavegacionMenu = styled.section`
     }
     li a{
         text-decoration: none;
-        font-size: 2em;
-        font-weight: 700;
+        font-size: 25px;
+        font-weight: bold;
+        font-family: 'Montserrat', sans-serif;
         color: #fff;
         display: inline-block;
-        padding: 16px 20px;
+        padding: 23px 20px;
     }
     a:hover{
-        background: #fff;
+        background: black;
         color: #DE0611;
     }
-    @media(max-width: 768px){
+    @media(min-width: 768px){
         a{
-            font-size: 1em;
+            font-size: 25px;
         }
     }
 `;

@@ -22,12 +22,12 @@ const Navegacion = styled.nav`
     @media (min-width: 1060px) {
     display: grid;
     grid-template-columns: 40% 20% 40%;
-    padding: 5PX 0;
+    padding: 5px 0;
     }
 `;
     const Enlace = styled.a`
      font-family: 'Montserrat', sans-serif;
-     font-size:13px;
+     font-size: 13px;
      text-transform: uppercase;
      padding: 1em 0;
      cursor: pointer;

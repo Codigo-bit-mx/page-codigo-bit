@@ -23,7 +23,7 @@ const Marcosicons = styled.div`
 const Icons = styled.ul`
     padding: 0;
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
 
     @media(min-width: 480px){
         grid-template-columns: repeat(2, 1fr);
@@ -32,19 +32,22 @@ const Icons = styled.ul`
         grid-template-columns: repeat(3, 1fr); 
     }
     @media(min-width: 991px){
-     grid-template-columns: repeat(6, 1fr);
+        grid-template-columns: repeat(6, 1fr);
     }
 `;
 
 const Unitlista = styled.li`
-    padding: 10px 3em;
-    position: relative;
-    background: none;
-    border: 0;
-    position: relative;
-    transition: color 0.25s;
+padding: 10px 18px;
+position: relative;
+background: none;
+border: 0;
+position: relative;
+transition: color 0.25s;
 
-     @media (min-width: 991px){
+    @media(min-width: 480px) {
+        padding: 10px 3em;
+    }  
+    @media (min-width: 991px){
         padding: 1em 2em;
     } 
 

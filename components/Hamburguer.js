@@ -9,7 +9,7 @@ const ContenedorBurguer = styled.button`
      flex-direction: column;
      justify-content: space-around;
      align-items: end;
-     width: 2rem;
+    //  width: 2rem;
      height: 2rem;
      background: transparent;
      border: none;
