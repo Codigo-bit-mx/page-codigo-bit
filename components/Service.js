@@ -291,10 +291,7 @@ return (
                             margin-bottom: 2.5em;
                         }
                     `}
-                    > <b>CodigoBit</b> utiliza las mejores <b>tecnologias y practicas</b> para el desarollo
-                        de sitios web, aplicaciones moviles, sistemas punto de venta, sistemas de administracion entre otros, llamonos 
-                        ponte en comunicación con nosotros recibe un asesoriamiento o platicanos sobre el proyecto que pretendes montar 
-                        para el beneficio de tu negocio o negocio.
+                    > <b>CodigoBit</b> utiliza las mejores <b>tecnologías y practicas</b> para el desarrollo de paginas web aplicaciones web, móviles y de escritorio. Llama ponte en contacto con nosotros recibe un asesoramiento o platica sobre el proyecto que pretendes montar, te ayudamos en todo el proceso.
                     </p>
 
                   

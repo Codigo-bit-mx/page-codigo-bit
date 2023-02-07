@@ -41,9 +41,10 @@ const Tecnologias = () => {
                 <Fade>
                 <Texto>
                     <h2>Ultimas tecnologias</h2>
-                    <p>Dentro del mundo de la programacion existen diferentes tecnologias para la creación de proyecto 
-                        es dificil mantenerte centrado en una sola de ellas, por lo que para entregar a nuestros cliente proyectos de vanguardia 
-                        constantemente nos capacitamos para dominar las <b>tecnologias del futuro</b>.
+                    <p>Dentro del mundo de la programación existen diferentes tecnologías
+                       para la creación de proyectos, el equipo de <b>CodigoBit!</b>,
+                      constantemente se mantiene actualizado y
+                      capacitado para entregar a todos clientes proyectos de <b>software de vanguardia</b>.
                     </p>
                 </Texto> 
                 </Fade>

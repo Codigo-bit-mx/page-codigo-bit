@@ -111,7 +111,7 @@ const Tarifa = () => {
 
                 <Precio>
                     <p>A partir de: </p>
-                    <b css={css` color: rgb(34, 150, 206);`}><span>6,</span>200 <span>$</span></b>
+                    <b css={css` color: rgb(34, 150, 206);`}><span>6,</span>500 <span>$</span></b>
                 </Precio>
                 
             </Unitlist>
@@ -135,7 +135,7 @@ const Tarifa = () => {
 
                 <Precio>
                     <p>A partir de: </p>
-                    <b css={css` color: rgb(34, 150, 206);`}>10,000 <span>$</span></b>
+                    <b css={css` color: rgb(34, 150, 206);`}>11,000 <span>$</span></b>
                 </Precio>
                 </Fade>
             </Unitlist>
@@ -148,17 +148,17 @@ const Tarifa = () => {
                   margin-bottom: 1em;
                 `}>
                 <img src="icons/rocket.png" />
-                <p css={css `border-bottom: none!important;`} >SISTEMA DE ADMINISTRACIÓN</p>
+                <p css={css `border-bottom: none!important;`}>SISTEMA DE ADMINISTRACIÓN</p>
                </div>  
 
                 <p>DISEÑO DASHBOARD</p>
                 <p>ADAPTABILIDAD MOVIL SI</p>
                 <p>PROGRAMCION SI</p>
-                <p>ORDENAMIENTO DE INVENTARIOS</p>
+                <p>PAQUETE PREMIUM</p>
                 
                 <Precio>
                     <p>A partir de: </p>
-                    <b css={css` color: rgb(34, 150, 206);`} >14,000 <span>$</span></b>
+                    <b css={css` color: rgb(34, 150, 206);`} >15,000 <span>$</span></b>
                 </Precio>
             
             </Unitlist>

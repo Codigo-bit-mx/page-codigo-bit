@@ -86,22 +86,26 @@ const Fig = styled.figure`
     }
     p{
         color: rgba(255,255,255,0.8); 
+        font-weight: bold;
+        font-size: 12px;
         opacity: 0;
         -webkit-transition: opacity 0.2s, -webkit-transform 0.35s;
         transition: opacity 0.2s, transform 0.35s;
-        font-weight: bold;
     }
 
     &:hover{
-        img, p{
+        img{
             opacity: 1;   
-            filter: grayscale(80%);
+            filter: blur(6px) grayscale(100%) brightness(0.4);
+            font-weight: bold;
         }
         img, h2, p{
             -webkit-transform: translate3d(0,0,0);
             transform: translate3d(0,0,0);
         }
         p{
+            font-weight: bold;
+            opacity: 1;
             -webkit-transition-delay: 0.05s;
             transition-delay: 0.05s;
             -webkit-transition-duration: 0.35s;
@@ -122,7 +126,7 @@ const Portafolio = () => {
               text-align:center;
               color: white;
               margin: 10px 0;
-              `}>Ultimos Trabajos</h2>
+              `}>Propuestas</h2>
              
                <Lista>
                <Fade bottom cascade>
@@ -133,8 +137,8 @@ const Portafolio = () => {
                         <img src="portafolio/dash.jpg"/>
                         <figcaption>
                         <div>
-                        <h2>Sistema de administración</h2>
-                        <p>Graficas y tablas representado ventas, ingreso de inventarios. Cuenta con un carrito de compras</p>
+                        <h2>Aplicaciones web</h2>
+                        <p>Las aplicaciones web pueden ser paneles de administración para el negocio, como gestión de inventarios, control de ventas, creación de agenda de citas, control de ventas, registros de pacientes por mencionar algunas, cualquier tarea que necesite ser gestionada puede ser perfectamente programada.</p>
                         </div>
                         </figcaption>
                         
@@ -147,11 +151,11 @@ const Portafolio = () => {
                         position: relative;
                     `}>
                         <Fig>
-                        <img src="portafolio/beer.jpg"/>
+                        <img src="portafolio/web.png"/>
                         <figcaption>
                         <div>
-                        <h2>Formulador de bebidas</h2>
-                        <p>Aplicacion web, para su funcionalidad se utilizo una Api que entrega una bebida dependiendo la formulacion que le solicites</p>
+                        <h2>Paginas web</h2>
+                        <p>Las paginas web, landing page o blogs personales ayudan al cliente a reconocer los productos y servicios que tu negocio ofrece, CobigoBit puede ayudar a encontrar a tus nuevos clientes. </p>
                         </div>
                         </figcaption>
                         
@@ -165,11 +169,11 @@ const Portafolio = () => {
                         position: relative;
                     `}>
                         <Fig>
-                        <img src="portafolio/clima.jpg"/>
+                        <img src="portafolio/ventas.png"/>
                         <figcaption>
                         <div>
-                        <h2>Clima web</h2>
-                        <p>Aplicacion web para obtener la temperatura de tu ciudad, esto depende de los datos que ingreses</p>
+                        <h2>Comercio electronico</h2>
+                        <p>Haz que tus clientes encuentres tus productos de forma mas sencilla, con una tienda en línea puedes llegar a mas personas interesadas, vende mas y potencia tu negocio.  </p>
                         </div>
                         </figcaption>
                         
@@ -182,11 +186,11 @@ const Portafolio = () => {
                         position: relative;
                     `}>
                         <Fig>
-                        <img src="portafolio/gas.jpg"/>
+                        <img src="portafolio/dispositivo.png"/>
                         <figcaption>
                         <div>
-                        <h2>Web Chapultepec</h2>
-                        <p>Prototipo del sitio web para la empresa gas Chapultepec de Mexico</p>
+                        <h2>Aplicaciones para dispositivo movil</h2>
+                        <p>Da a conocer tu negocio con una aplicación móvil, o lleva tu administración en el bolsillo, te ayudamos a crear el sistema que se adapte a tu necesidad.</p>
                         </div>
                         </figcaption>
                         

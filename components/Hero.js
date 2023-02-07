@@ -25,6 +25,7 @@ const Titulo = styled.div`
 
     p{
         padding: 1rem;
+        font-weight: bold;
     }
     
     @media (min-width:768px){
@@ -49,7 +50,7 @@ const Barra = () => {
                 <Particulas />
             <Titulo>
                 <h1>Construye tu proyecto con nosotros</h1>
-                <p>Consolidate dentro de internet y haz que tu negocio llegue a mas clientes</p>
+                <p>Consolídate dentro de internet lleva tu negocio a mas clientes</p>
             </Titulo>    
             </Background>
             
